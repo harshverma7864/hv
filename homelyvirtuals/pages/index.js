@@ -2,11 +2,11 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import style from '../styles/brands.module.css'
-import Navbar from './components/navbar'
+import Navbar from './components/Navbar'
 import $ from 'jquery'
 
-import Slider from './components/slider';
-import Slider2 from './components/slider2';
+import Slider from './components/Slider';
+import Slider2 from './components/Slider2';
 
 
 export default function Home() {
