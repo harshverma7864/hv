@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import pr from '../styles/prd.module.css'
+import pr from '..../../styles/prd.module.css'
 import style from '../styles/Home.module.css'
 import Navbar from '../components/navbar'
 import mongoose from 'mongoose'
