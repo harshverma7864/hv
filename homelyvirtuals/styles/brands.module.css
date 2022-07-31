@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto+Mono:wght@100&family=Ubuntu:wght@300&display=swap');
+
+
+.headings{
+    /* font-family: 'Ubuntu', sans-serif; */
+    font-family: 'Roboto Mono', monospace;
+    font-weight: bolder;
+    color: rgb(29, 74, 74);
+    font-size: 45px;
+}
+
+.cardrow{
+  width: 80%;
+  margin: 0.1vh auto;
+}
+      .card17{
+height: 35vh;
+width: 100%;
+background: url(/img/box1.png);
+      }
+
+      .blackbox{
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.379);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        margin:5vh auto;
+            }
+            .blackbox h1{
+              font-family: 'Roboto Mono', monospace;  
+              font-weight: bold;
+            }
+
+
+            .card17:hover{
+              transform: scale(1.02);
+  transition: linear 0.1s;
+  cursor: pointer;
+            }
+
+            .blackbox:hover h1{
+              transform: scale(1.02);
+  transition: linear 0.1s;
+  cursor: pointer;
+            }
+
+
+            .container1 {
+                width: 98%;
+                height: auto;
+            
+            }
+            
+            
+            .card1 {
+                width: 20%;
+                height: 30vh;
+            }
+            
+            
+            .bv {
+                height: 100%;
+                margin: 0;
+                padding: 0;
+                width: 100%;
+                background: rgba(65, 65, 65, 0.533);
+            }
+            
+            
+            .bv {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            
+            
+            .bv p {
+                font-size: 20px;
+                /* font-style: italic; */
+                font-family: 'Roboto Mono', monospace;
+                font-weight: bold;
+                color: rgb(185, 185, 185);
+            }
+            
+            
+            .bv:hover p {
+                transform: scale(1.3);
+                transition: linear 0.5s;
+            }
+            
+            
+.card-body{
+    font-family: 'Poppins', monospace;
+}
+
+
+.card{
+    border: 1px solid rgba(30, 76, 76, 0.807) ;
+}
+
+
+.card15{
+    margin: 1vh auto;
+    width: 90%;
+    height:55vh;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.img2{
+    height: 60%;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+
+.img2 img{
+    height: 90%;
+    margin:2vh auto;
+    width: 80%;
+}
+
+
+.details{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 27%;
+    width: 100%;
+}
+
+
+#price{
+    font-weight: bold;
+    color: grey;
+}
+
+
+.buttons{
+    visibility: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    color: white;
+    font-size: 18px;
+    background: rgb(50, 101, 84);
+    height: 13%;
+    width: 100%; 
+}
+
+
+.card15:hover .buttons{
+  visibility: visible;
+  cursor: pointer;
+}
+
+
+
+.services{
+    width: 70%;
+    margin: auto;
+    height: auto;
+}
+
+.serverow{
+    width: 100%;
+    height: 100%;
+   display: flex;
+   justify-content: center;
+}
+.serve1{
+    padding: 1vh;
+    width: 70%;
+    height: auto;
+    border-radius: 5px;
+    border: 1px solid rgba(30, 76, 76, 0.314);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-family: 'Poppins';
+    margin: 1vh;
+}
+
+.serveele{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.serve1 img{
+width: 40px;
+height: 40px;
+}
+
+
+
+
+.latestcollection{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+}
+
+.latest1{
+    width: 50%;
+    height: 100%;
+    background-image: url("/img/latest1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.latest2{
+    width: 50%;
+    height: 100%;
+    background-image: url("/img/latest2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media screen and (max-width:700px) {
+    .latestcollection{
+        flex-direction: column;
+        height:100vh;
+    }
+    .latest1{
+        width: 100%;
+    }
+    .latest2{
+        width: 100%;
+    }
+    .serverow{
+        flex-direction: column;
+    }
+}
+
+

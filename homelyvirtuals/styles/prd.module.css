@@ -1,0 +1,383 @@
+.maincard{
+    width: 80%;
+    height: 65vh;
+    display: flex;
+    margin: 1vh auto;
+    background-color: #ffffffcc;
+    border: 0.5px solid rgba(205, 203, 203, 0.723);
+}
+
+.imgcard{
+    margin-top: 2vh;
+    width: 45%;
+    height: 90%;
+    border-right: 1px solid rgb(211, 211, 211);
+}
+
+.desccard{
+    width: 55%;
+    height: 100%;
+}
+
+.desc{
+    width: 100%;
+    padding: 4vh;
+
+    height: 90%;
+}
+.row{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.extras{
+    display: flex;
+    height: 10%;
+    font-size: 12px;
+    width: 100%;
+    background-color: rgba(33, 93, 83, 0.264);
+}
+
+.grid{
+ width: 90%;
+ height: 15%;
+ display: flex;
+ justify-content: center;
+
+}
+
+.grid img{
+    border: 1px solid rgb(215, 215, 215);
+    padding: 8px;
+    width: 15%;
+    height: 100%;
+    margin: 1vh;
+}
+.mainimg{
+    width: 100%;
+    height: 85%;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.mainimg img{
+    width: 90%;
+    height: 90%;
+    
+}
+
+
+
+#plus {
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding-left: 1vh;
+    padding-right: 1vh;
+    padding-top: 0.5vh;
+    padding-bottom: 0.5vh;
+}
+
+#plus:hover {
+    cursor: pointer;
+}
+
+#minus:hover {
+    cursor: pointer;
+}
+
+#minus {
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding-left: 1vh;
+    padding-right: 1vh;
+    padding-top: 0.5vh;
+    padding-bottom: 0.5vh;
+}
+
+#qty {
+    margin: 1vh;
+    padding: 1vh;
+}
+
+#qtyval {
+    width: 0.7vw;
+    outline: none;
+    border: none;
+    background: transparent;
+}
+.ex{
+    width: 100%;
+    height: 20vh;
+    margin-top: 4vh;
+    display: flex;
+}
+
+.addtocart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100%; 
+    border-right: 1px solid rgb(211, 211, 211);
+}
+.deloptions{
+    width: 50%;
+    height: 100%; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    padding: 3vh;
+}
+
+.atc{
+    width: 80%;
+    height: 40%;
+    margin: auto;
+    background-color: rgb(28, 75, 75);
+    color: white;
+    border: none;
+}
+.atc:hover{
+
+    background-color: rgb(19, 51, 51);
+  
+}
+
+.deloptions input{
+ outline: none;
+ border: 1px solid rgb(211, 211, 211);
+ height: 5vh;
+ padding: 0.7vh;
+}
+
+.chk{
+    width: 40%;
+    height: 30%;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(22, 64, 65) ;
+    color: rgb(22, 64, 65);
+}
+
+.chk:hover{
+    background-color: rgb(22, 64, 65);
+    color: rgb(255, 255, 255);  
+}
+
+
+.secondaryMain{
+    width: 80%;
+    height: auto;
+    display: flex;
+    margin: 1vh auto;
+}
+
+.description{
+    width: 75%;
+    height: 100vh;
+    margin: 0.5vh;
+    border: 0.5px solid rgb(217, 217, 217);
+}
+
+.pcard
+{
+    width: 25%;
+    height: 50vh;
+    margin: 0.5vh;
+    /* background-color: rgb(212, 212, 250); */
+    position: sticky;
+    top: 0;
+}
+
+
+
+.card16{
+    width: 100%;
+    height: 50vh;
+    margin: 0.5vh;
+    /* background-color: rgb(212, 212, 250); */
+    position: sticky;
+    top: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.img2{
+    height: 60%;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+
+.img2 img{
+    height: 90%;
+    margin:2vh auto;
+    width: 80%;
+}
+
+
+.details{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 27%;
+    width: 100%;
+}
+
+
+#price{
+    font-weight: bold;
+    color: grey;
+}
+
+
+.buttons{
+    visibility: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    color: white;
+    font-size: 18px;
+    background: rgb(50, 101, 84);
+    height: 13%;
+    width: 100%; 
+}
+
+
+.card16:hover .buttons{
+  visibility: visible;
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+.description ul li a{
+    color: black;
+}
+.description ul li a:hover{
+cursor: pointer;
+}
+
+
+
+.buttons{
+    width: 100%;
+    height: 5vh;
+    background: rgb(33, 93, 83);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.buttons a{
+    text-decoration: none;
+    background-color: transparent;
+
+}
+
+.buttons a:hover{
+    color: white;
+}
+
+.buttons:hover{
+   cursor: pointer;
+    background: rgb(22, 63, 56) ;
+}
+
+
+@media screen and (max-width:1000px) {
+    .maincard{
+        width: 99%;
+    }
+
+    .extras{
+        font-size: 8px;
+    }
+    .secondary-main{
+        width: 99%;
+    }
+    .description{
+        width: 65%;
+    }
+    .carcard{
+        width: 100%;
+    }
+}
+
+
+@media screen and (max-width:700px) {
+    .desc{
+        height: 75%;
+    }
+    .extras{
+        height: 25%;
+    }
+}
+@media screen and (max-width:650px) {
+    .maincard{
+        height: 140vh;
+        flex-direction: column;
+    }
+    .imgcard{
+        width: 100%;
+    }
+    .desccard{
+        width: 100%;
+    }
+    .pcard{
+        visibility: hidden;
+        width: 0;
+    }
+    .secondary-main{
+        width: 100%;
+    }
+    .description{
+        width: 100%;
+    }
+
+    .nav-tabs{
+        width: 100%;
+    }
+    .nav-item{
+        width: 20%;
+    }
+    .nav-link{
+        
+        font-size: 8px;
+    }
+    #qty{
+        padding: 0.2vh;
+    }
+    #qtyval{
+        width: 8vw;
+    }
+}
+
+
+@media screen and (max-width:450px) {
+    .ex{
+        flex-direction: column;
+        height: 40vh;
+    }
+    .addtocart{
+        width: 100%;
+
+        height: 30%;
+    }
+    .deloptions{
+        width: 100%;
+        padding: 0.2vh;
+        height: 40%;
+    }
+}

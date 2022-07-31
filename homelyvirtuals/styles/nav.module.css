@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto+Mono:wght@100&family=Ubuntu:wght@300&display=swap');
+
+.header{
+    max-height: 30vh;
+    width: 100%;
+}
+
+.tophead{
+    height: 4vh;
+    background-color: orangered;
+}
+.midhead{
+    display: flex;
+    height: 8vh;
+    justify-content: center;
+    border-bottom: 1px solid rgba(193, 193, 193, 0.573);
+}
+.midhead ul{
+    padding: 0 !important;
+    height: 100%;
+    width: 85%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.hid{
+  list-style: none;
+  display: block;
+  font-size: 18px;
+  font-weight: 700;
+  /* letter-spacing: 0.1px; */
+  text-transform: capitalize;
+  color: #03021a;
+  font-family: 'Poppins', sans-serif;
+  margin: 0 auto;
+}
+
+.user,.bag{
+    list-style: none;
+    font-weight: 700;
+    display: block;
+    font-family: 'Poppins', sans-serif;
+    text-transform: capitalize;
+    color: #03021a;
+    margin: 0 auto;
+}
+.logo{
+    font-weight: 900;
+    font-size: 20px;
+    list-style: none;
+    display: block;
+    text-transform: capitalize;
+    color: #03021a;
+    margin: 10px auto;
+}
+
+.logo > image {
+    margin: 10px;
+}
+
+.Headlogo{
+margin-top:5px !important;
+}
+.search{
+    width: 20vw;
+    height: 70%;
+    list-style: none;
+    display: block;
+    border-radius: 5px;
+    text-transform: capitalize;
+    color: #03021a;
+    margin: 0 auto;
+}
+
+.search input{
+    height: 100%;
+    width: 100%;
+    outline: none;
+    background-color: rgba(170, 211, 255, 0.352);
+    border: none;
+    border-radius: 6px;
+    padding: 2vh;
+}
+
+.menu{
+    visibility: hidden;
+    width: 0;
+    
+    display: flex;
+    justify-content: center;
+}
+
+.searchhead{
+    visibility: hidden;
+    height: 0;
+    width: 0;
+}
+.bottomhead{
+    display: flex;
+    height: 6vh;
+    justify-content: center;
+    align-items: center;
+}
+.bottomhead ul{
+    width: 50%;
+    height: 100%;
+    margin: 0 !important;
+    padding: 0 !important;
+    display: flex;
+    align-items: space-around;
+    justify-content: space-around;
+}
+
+.bottomhead ul li{
+    font-size: 18px;
+    height: 100%;
+    line-height: 20px;
+    font-weight: 500;
+    letter-spacing: -0.1px;
+    padding: 14px 0 13px;
+    list-style: none;
+}
+
+.logo:hover{
+    cursor: pointer;
+}
+
+.lin{
+    text-decoration: none !important;
+    color: black !important;
+}
+
+.lin:hover{
+    
+}
+
+.bottomhead ul li:hover{
+    cursor: pointer;
+}
+
+@media  screen and (max-width:1444px) {
+    .midhead ul{
+        width: 90%;
+    }
+}
+@media  screen and (max-width:983px) {
+    .midhead ul{
+        width: 99%;
+    }
+    .midhead ul li{
+      
+        font-size: 14px;
+        
+      }
+
+      .midhead ul li svg{
+        width: 20px !important;
+        height: 20px !important;
+      }
+}
+@media  screen and (max-width:700px) {
+   
+    .midhead ul li{
+      
+        font-size: 12px;
+        
+      }
+     .bottomhead ul{
+        width: 95%;
+     }
+      
+}
+
+
+@media screen and (max-width:550px) {
+    .midhead{
+        height: 6vh;
+    }
+
+    .bottomhead{
+        visibility: hidden;
+        height: 0;
+        width: 0;
+    }
+    .midhead ul{
+
+        height: 100%;
+        width: 99%;
+        
+    }
+
+    .logo{
+        width: 40vw;
+        display: flex;
+        justify-content: center;
+    }
+    .hid{
+      list-style: none;
+      display: none;
+      font-size: 0;
+      font-weight: 0;
+     
+    }
+
+    .search{
+        width: 0;
+        height: 0;
+    }
+    .search input{
+        width: 0;
+        padding: 0;
+    }
+    .menu{
+        visibility: visible;
+        width: 15vw;
+    }
+    
+    .searchhead{
+        visibility: visible;
+        height: 8vh;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .searchhead input{
+        width: 95%;
+        height: 80%;
+        margin: 0.2vh;
+        background-color: rgba(170, 211, 255, 0.352);
+        padding: 2vh;
+        outline: none;
+        border: none;
+        border-radius: 6px;
+    }
+    /* .logo{
+        font-weight: 900;
+        font-size: 20px;
+    }
+    
+    .search{
+        width: 20vw !important;
+        height: 70% !important;
+        border-radius: 5px;
+    } */
+}
+
+
