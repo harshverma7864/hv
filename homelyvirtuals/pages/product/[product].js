@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
-import pr from '..../../styles/prd.module.css'
-import style from '../styles/Home.module.css'
-import Navbar from '../components/navbar'
+import pr from '../../styles/prd.module.css'
+import style from '../../styles/Home.module.css'
+import Navbar from '../components/Navbar'
 import mongoose from 'mongoose'
 
 
