@@ -1,6 +1,6 @@
 import React from 'react'
 import { useRouter } from 'next/router'
-import Navbar from '../components/navbar';
+import Navbar from '../components/Navbar';
 
 const categories = ({category}) => {
   const router = useRouter();
